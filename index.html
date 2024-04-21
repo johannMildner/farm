@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>farm</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" />
+    <script src="myutils.js" defer></script>
+    <script src="farm.js" defer></script>
+</head>
+
+<body>
+    <h1>Unsere Tiere</h1>
+    <p>
+        <input id="koepfe">
+        <label for="koepfe">Koepfe</label>
+        <span class="error" id="k-error"></span>
+    </p>
+
+    <p>
+        <input id="beine">
+        <label for="beine">Beine</label>
+        <span class="error" id="b-error"></span>
+    </p>
+
+    <p> <button onclick="checkUndBerechnen()">Berechnen</button> </p>
+    <p>
+        <div id="ergebnis1"></div>
+        <div id="ergebnis2"></div>
+        <div id="ergebnis3"></div>
+    </p>
+</body>
+
+</html>
